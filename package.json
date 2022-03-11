@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "npx jest",
     "start": "node <name_of_mainjs_file>"
   },
   "author": "",
