@@ -15,7 +15,7 @@ RUN npm install
 
 # Bundle app source
 COPY . .
-RUN npx jest
+RUN npm test
 
 EXPOSE 8080
 CMD [ "node", "index.js" ]
