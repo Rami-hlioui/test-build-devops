@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "npm test",
     "start": "node <name_of_mainjs_file>"
   },
   "author": "",
