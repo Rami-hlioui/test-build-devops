@@ -8,7 +8,7 @@ describe('Test Handlers', function () {
         request(app)
         .get('/')
         .expect(200)
-        .expect('Hello, World : our first test!', done)
+        .expect('He', done)
       
     });
 });
