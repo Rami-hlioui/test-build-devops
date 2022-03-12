@@ -17,5 +17,10 @@ RUN npm install
 COPY . .
 RUN npm run test
 
+<<<<<<< HEAD
 EXPOSE 8080:4001
 CMD [ "node", "index.js" ]
+=======
+EXPOSE 8081
+CMD [ "node", "index.js" ]
+>>>>>>> 3902628f5dc001d1a9e4ccf9f5be6a96ac3dae7b
