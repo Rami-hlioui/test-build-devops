@@ -17,4 +17,4 @@ RUN npm install
 COPY . .
 RUN npm run test
 CMD [ "node", "index.js" ]
-EXPOSE 8080
+EXPOSE 80
