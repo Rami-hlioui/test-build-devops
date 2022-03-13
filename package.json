@@ -2,7 +2,7 @@
   "name": "test-devops",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "iindex.js",
   "scripts": {
     "test": "jest --detectOpenHandles",
     "start": "node <name_of_mainjs_file>"
